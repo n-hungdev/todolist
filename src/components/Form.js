@@ -24,6 +24,7 @@ const Form = ({
 				name="title"
 				onChange={handleChangeTitle}
 				value={title}
+				placeholder="Enter title task"
 				className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:outline-none block w-full p-2.5 mb-4"
 			/>
 			<label

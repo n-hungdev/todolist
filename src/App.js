@@ -14,8 +14,10 @@ export default function App() {
 	const closeModal = () => {
 		setDescription('')
 		setTitle('')
-		setIsEdit(false)
 		setIsOpen(false)
+		setTimeout(() => {
+			setIsEdit(false)
+		}, 500)
 	}
 
 	const [title, setTitle] = useState('')
